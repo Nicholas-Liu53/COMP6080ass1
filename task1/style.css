@@ -1,0 +1,47 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2 {
+    color: #862368;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 257%;
+}
+
+h2 {
+    padding-top: 25px;
+    font-weight: normal;
+    font-size: 150%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+div {
+    background-color: white;
+    text-align: center;
+    width: 375px;
+    margin: 15px;
+    box-shadow: grey 0px 2px 3px -3px ;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    color: #494949;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
