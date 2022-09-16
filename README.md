@@ -35,7 +35,6 @@ Please build your page in `task1/index.html`. You are welcome to create as many 
 
 ### Task 2 - Static, fixed size page
 
-
 Build a page that looks identical to `task2/page.png`. The window width you should work with is 1283 x 699 pixels. You are only allowed to use HTML and CSS for this task. No external libraries are permitted.
 
 ![](./task2/page.PNG)
@@ -52,10 +51,11 @@ You are also expected to handle the hover state for the "FIND OUT MORE" buttons.
   * `task2/assets/asset1.html`
   * `task2/assets/asset2.html`
   * `task2/assets/asset3.html`
+* Please note, the assets might not match the reference image exactly. That is OK, you can just use the images provided.
 
 ### Task 3 - Responsive static page
 
-Build a responsive page that complies with `task3/page_big.png` and `task3/page_small.png`. The big page is 585 x 2902 pixels, and the small page is 1022 x 665 pixels. Your single page (note that you're not using two separate HTML files) should like identical to either of these pages depending on the window sized the browser is at.
+Build a responsive page that complies with `task3/page_big.png` and `task3/page_small.png`. The small page is 585 x 2902 pixels, and the big page is 1022 x 665 pixels. Your single page (note that you're not using two separate HTML files) should like identical to either of these pages depending on the window sized the browser is at.
 
 Your are expected to have reasonable intermediate states. In other words, if the window size is some combination of widths between 453 and 1197, combined with some combination of heights between 1610 and 1873, the page should still reflect the same general structure.
 
