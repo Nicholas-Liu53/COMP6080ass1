@@ -131,10 +131,19 @@ button {
     margin-top: 10px;
     margin-bottom: 10px;
     border-width: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 button:hover {
     background-color: black;
+    justify-content: space-between;
+}
+
+button:hover .button-icon {
+    padding-left: 4px;
+    padding-right: 6px;
 }
 
 .button-text {
@@ -147,7 +156,7 @@ button:hover {
 
 .button-icon {
     fill: white;
-    padding-top: 10px;
+    padding-right: 10px;
     scale: 100%;
 }
 
