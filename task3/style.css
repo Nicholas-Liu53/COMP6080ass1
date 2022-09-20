@@ -5,42 +5,42 @@ body {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
+    height: 100%;
+    width: 100%;
 }
 
 section {
     margin: 0px 0px 0px 0px;
     padding: -100px -100px -100px -100px;
     height: 50%;
+    width: 100%;
 }
 
 #top-half {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     background-color: white;
+    padding-bottom: 5%;
+    /* width: 100%; */
 }
 
 .top-half-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 50px;
-    width: 300px;
-    margin-bottom: 20px;
-
+    width: 30%;
 }
 
 img {
-    width: 150px;
+    width: 60%;
     margin-bottom: 20px;
 }
 
 h3 {
     font-family: Arial;
     text-align: center;
-    font-size: 16px;
+    font-size: 100%;
     color: #16b1c4;
 }
 
@@ -51,12 +51,13 @@ h3 {
     align-items: center;
     background-color: #d5f1f4;
     margin: 0px 0px 0px 0px;
+    /* height: 50%; */
 }
 
 h1 {
     font-family: Arial;
     text-align: center;
-    font-size: 36px;
+    font-size: 250%;
     color: #19b0c4;
     margin-bottom: 0px;
     margin-top: 40px;
@@ -65,16 +66,17 @@ h1 {
 h5 {
     font-family: Arial;
     text-align: center;
-    font-size: 14px;
+    font-size: 90%;
     color: #8e969f;
-    margin-bottom: 25px;
+    margin-bottom: 0;
 }
 
 #bottom-half-cards {
     display: flex;
-    flex-direction: row;
+    flex-direction: space-between;
     align-items: center;
-    margin-bottom: 2%;
+    justify-content: center;
+    margin-bottom: 11%;
 }
 
 .bottom-half-card-blue {
@@ -82,16 +84,7 @@ h5 {
     background-color: #7ebec4;
     font-family: Arial;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 23%;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 120px;
+    width: 20%;
     border-radius: 8%;
 }
 
@@ -100,16 +93,7 @@ h5 {
     background-color: #ec1d23;
     font-family: Arial;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 23%;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 120px;
+    width: 20%;
     border-radius: 8%;
 }
 
@@ -119,6 +103,7 @@ p {
     color: white;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 15%;
 }
 
 @media screen and (max-width: 767px) {
@@ -127,6 +112,36 @@ p {
     }
 
     #top-half>* {
+        width: 100%;
+        padding-bottom: 0%;
+    }
+
+    .top-half-card {
+        margin-top: 0%;
+        margin-bottom: 4%;
+    }
+
+    .top-half-card>* {
+        height: 40%;
+    }
+
+    img {
+        width: 50%;
+    }
+
+    h3 {
+        font-size: 235%;
+    }
+
+    h1 {
+        font-size: 400%;
+    }
+
+    h5 {
+        font-size: 180%;
+    }
+
+    h5>* {
         width: 100%;
     }
 
@@ -140,5 +155,9 @@ p {
     
     #bottom-half-cards>* {
         width: 70%;
+    }
+
+    p {
+        font-size: 240%;
     }
 }

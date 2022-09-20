@@ -1,7 +1,9 @@
 body {
     background-color: #f1f1f1;
     font-family: Arial, Helvetica, sans-serif;
-}
+    /* background-image: url("page.PNG");
+    opacity: 0.6; */
+} 
 
 h1,h2 {
     color: #862368;
