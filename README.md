@@ -204,7 +204,7 @@ knowledge.
 
 ## Submission
 
-This assignment is due *Monday 3rd of October, 10pm*.
+This assignment is due *Tuesday 4th of October, 10am*.
 
 To submit your assignment, simply run the following command on a CSE terminal:
 
